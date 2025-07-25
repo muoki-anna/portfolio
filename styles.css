@@ -141,3 +141,15 @@ footer{
   height: 250px;
   width: 200px;
 }
+.card-box{
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centers cards horizontally */
+  align-items: stretch; /* Makes cards equal height */
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+.card-tech {
+    flex: 1; /* Allows cards to grow/shrink equally */
+    min-width: 300px; /* Minimum width before wrapping */
+    max-width: 45%; /* Prevents cards from becoming too wide */
+}
