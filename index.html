@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,7 +101,7 @@
   <div class="card-body">
     <h5 class="card-title">Tools I Use</h5>
     <p class="card-text">Tools</p>
-     <ul>
+    <ul>
             <li>Android Studio</li>
             <li>Visual Studio Code</li>
             <li><i class="fa-brands fa-github"></i>Github</li>
@@ -161,26 +161,21 @@
 <!--Contact section-->
 <section class="contact-section text-center ">
     <h3>Contact Me</h3>
-<div class="row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-      </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-      </div>
-    </div>
-    <div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-  <label for="floatingInput">Email address</label>
-</div>
-<div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-  <label for="floatingTextarea2">Comments</label>
-</div>
-<button type="submit" class="btn btn-primary">Submit</button>
-    </section>
+    <form action="https://formsubmit.co/muokianna10@gmail.com" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">comment:</label>
+  <textarea id="comment" name="comment" required></textarea>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  </section>
     
-   
+<!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 <!--footer section-->
